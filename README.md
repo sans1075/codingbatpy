@@ -1,2 +1,2 @@
 # CodingBat Python Solutions
-Coding bat python solutions and explanations.
+Coding bat python optimized solutions and explanations.
