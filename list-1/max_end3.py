@@ -2,5 +2,4 @@
 # array, and set all the other elements to be that value. Return the changed array.
 
 def max_end3(nums):
-  if nums[0] > nums[2]: return [nums[0], nums[0], nums[0]] # Checks which is larger, returns first if it is larger
-  return [nums[2], nums[2], nums[2]] # Returns last if it is larger
+  return [max(nums[0], nums[2]), max(nums[0], nums[2]), max(nums[0], nums[2])] # Returns the larger of the two numbers 3 times
