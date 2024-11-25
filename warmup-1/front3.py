@@ -3,4 +3,4 @@
 # front.
 
 def front3(str):
-  return str[0:3] * 3 # Returns the first three (or less) characters of the string
+  return str[:3] * 3 # Returns the first three (or less) characters of the string
